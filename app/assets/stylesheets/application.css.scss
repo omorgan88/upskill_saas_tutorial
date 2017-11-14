@@ -53,6 +53,19 @@ h1, h2, h3 {
   }
 }
 
+// Hamburger Menu
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color : black; 
+}
+
+.navbar-default .navbar-toggle {
+  border: 1px solid black;
+  &:hover, &:focus {
+    background-color : #82FEFA;
+  }
+}
+
 // Home Page Syles
 .home-callout {
   // home-callout is welcome message
